@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: Arial;
+	background: linear-gradient(to bottom right, #7134eb, #eb34cf);
+	color: white;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+}
+.navbar
+{
+	background: rgba( 0, 0, 0 , 0.65);
+	align-items: center;
+	padding: 15px 25px;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+	border-radius: 30px;
+	
+}
+.navbar a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px ;
+	font-weight: bold;
+	margin: 0 10px;
+}
+.navbar a:hover
+{
+	color: crimson;
+	transition: 0.3s ;
+	background-color: black;
+
+}
+.game-container
+{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	background: rgba( 0, 0, 0, 0.65);
+	border-radius: 5rem;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+#flag-img
+{
+	width: 200px;
+	height: 120px;
+	object-fit: cover;
+	border: 4px solid #ffffff;
+	border-radius: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+.option-container
+{	
+	display: grid;
+	margin-bottom:1.5rem;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+.option-btn {
+	background: linear-gradient(to bottom right, #7134eb, #eb34cf);
+	padding: 0.75rem 1rem;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.option-btn:hover
+{
+	background: lightblue;
+	color:crimson;
+	transition: 0.3s;
+}
+.feedback
+{
+	font-size: 1.25rem;
+	margin: 1rem 0;
+	font-weight: bold;
+	font-color: white;
+}
+.controls
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+.control-btn
+{
+	background: linear-gradient(to bottom right, #7134eb, #eb34cf);
+	padding: 0.75rem 1rem;
+	border-radius: 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.control-btn:hover
+{
+	background: lightblue;
+	color: crimson;
+	transition: 0.3s;
+}
+.feedback.correct {
+	color: #00ff00;
+}
+
+.feedback.wrong {
+	color: #ff3333;
+}
+.about-box {
+	max-width: 700px;
+	background: white;
+	color: black;
+	margin: 80px auto;
+	padding: 30px 40px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	line-height: 1.6;
+}
+
+.about-box h2 {
+	margin-bottom: 20px;
+	font-size: 28px;
+	color: #333;
+}
+
+
+
+
+
+
